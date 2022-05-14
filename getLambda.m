@@ -1,8 +1,8 @@
-function lambda = getLambda(delT, alpha, h, D, N)
+function lambda = getLambda(delT, alpha, h, D)
     eeta = (D * delT) / (2 * power(h, alpha));
-    lambda = zeros(N);
-    for i = 1:N
-       for j = 1:N
+    lambda = zeros(240);
+    for i = 1:240
+       for j = 1:240
            if j <= i - 1
                lambda(i, j) = eeta * getG(alpha, i-j+1);
            elseif j == i
