@@ -4,4 +4,4 @@ This repository contains the code for the course project of Digital Image Proces
 
 #### Group Members
 1. Akshat Agrawal @akshat1136
-2. Dhriti Singh @username_i_dont_know
+2. Dhriti Singh @Dhriti-singh
